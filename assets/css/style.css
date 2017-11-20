@@ -17,7 +17,7 @@ h1 {
 	font-family: Georgia, Times, Times New Roman, serif;
 	color: black;
 	padding: 40px 30px 30px 30px;
-	position:relative;
+	position:absolute;
 	left: 100px;
 }
 
@@ -46,7 +46,6 @@ body{
 	clear: both;
 	position: relative;
 	float: left;
-	background-color: lavender;
 	width: 650px;
 	height: 450px;
 	padding: 20px;
@@ -71,7 +70,7 @@ h2 {
 	float: left;
 	width: 270px;
 	height: 270px;
-	background-color: lightblue;
+
 }
 
 h3 {
@@ -87,7 +86,8 @@ h3 {
 
 .footer1 {
 	
-	align-content: center;
+	height: 60px;
+	text-align: center;
 	color: white;
 	clear: both;
 
