@@ -1,2 +1,2 @@
 # Basic-Portfolio
-My portfolio still in the works
+My attempt at a portfolio 
