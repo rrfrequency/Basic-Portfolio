@@ -1,71 +1,54 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	
-		<title> Personal Portfolio
-	 	</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!doctype html>
+<html lang="en-us">
 
+<head>
+  <meta charset="UTF-8">
+  <title>About | Ryan Retirado</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-	</head>
+<body>
 
-	<body>
-			<header id="header1">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Ryan Retirado</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-				<div class="container">
-					<a href="#" id="myname">Ryan Retirado</a>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-					<div id="links">
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="contact.html">Contacts</a></li>
-						</ul>
-						
-					</div>
-				</div>
-			
-				</header>
+      <img src="https://lh3.googleusercontent.com/-nUl82ujXMnU/WWR3hKsxXNI/AAAAAAAABMo/UmEngMD3WrsurDd77xFAaFRqQYm5O8tLgCEwYBhgL/w278-h280-p/2015-08-08%2B14.10.02-2.jpg" class="auth-image" alt="Ryan Retirado">
 
-				<section class="container" id="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-					<h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-						<img src="https://lh3.googleusercontent.com/-nUl82ujXMnU/WWR3hKsxXNI/AAAAAAAABMo/UmEngMD3WrsurDd77xFAaFRqQYm5O8tLgCEwYBhgL/w278-h280-p/2015-08-08%2B14.10.02-2.jpg" class="myimage" alt="Ryan Retirado">
+    </section>
 
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-						</p>
+        <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-				</section>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Ryan Retirado
+    </div>
+  </footer>
+</body>
 
-			
-				<section id="sidebar">
-
-						<h2>Connect with me</h3>
-
-						<a href="https://github.com/ryanretirado"><img src="data:image/png;base64,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" class="mysite" alt="GitHub" /></a>
-					    
-					    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLX-9jPepCcnUefk27VZNTZyQx2YzSa_phOaK8RbCqpq0dDnkW" class="mysite" alt="LinkedIn" /></a>
-					    
-					    <a href="#"><img src="data:image/png;base64,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" class="mysite" alt="Stack Overflow" /></a>
-			
-				</section>
-			
-			</div>
-
-				<div id="footer">
-					Copyright &copy; 2017 Ryan Retirado
-
-			
-				</div>
-
-			</div>
-
-	</body>
 </html>
